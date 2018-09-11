@@ -15,6 +15,7 @@
 		4714AB5821475CA100D6C590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714AB5721475CA100D6C590 /* main.m */; };
 		4714AB6221475CA100D6C590 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714AB6121475CA100D6C590 /* TestTests.m */; };
 		4714AB6D21475CA100D6C590 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714AB6C21475CA100D6C590 /* TestUITests.m */; };
+		4714AB7C214774B800D6C590 /* NSString+PinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714AB7B214774B800D6C590 /* NSString+PinYin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4714AB6821475CA100D6C590 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4714AB6C21475CA100D6C590 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		4714AB6E21475CA100D6C590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4714AB7A214774B200D6C590 /* NSString+PinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin.h"; sourceTree = "<group>"; };
+		4714AB7B214774B800D6C590 /* NSString+PinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4714AB4921475C9000D6C590 /* AppDelegate.m */,
 				4714AB4B21475C9000D6C590 /* ViewController.h */,
 				4714AB4C21475C9000D6C590 /* ViewController.m */,
+				4714AB7A214774B200D6C590 /* NSString+PinYin.h */,
+				4714AB7B214774B800D6C590 /* NSString+PinYin.m */,
 				4714AB4E21475C9000D6C590 /* Main.storyboard */,
 				4714AB5121475CA100D6C590 /* Assets.xcassets */,
 				4714AB5321475CA100D6C590 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				4714AB4D21475C9000D6C590 /* ViewController.m in Sources */,
 				4714AB5821475CA100D6C590 /* main.m in Sources */,
+				4714AB7C214774B800D6C590 /* NSString+PinYin.m in Sources */,
 				4714AB4A21475C9000D6C590 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
